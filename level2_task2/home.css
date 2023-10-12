@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    color:white;
+    padding: 0;
+    transition: .2s all ease-in-out;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("assets/images/back.jpg");
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    text-shadow: 1px 1px 2px black;
+    background-blend-mode: darken;
+    background-color: rgba(30,30,30,.7);
+    background-blend-mode: darken;
+    height: 75vh;
+    padding: 2vh 10vw;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+}
+.container .navbar{
+    margin-bottom:15vh;
+}
+.container .navbar,.navbar ul,li{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    margin: 0px .5vw;
+    padding: 10px 25px;
+    background-color: rgba(30,30,30,.5);
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    text-shadow: none;
+    background-color: rgba(255,255,255,.75);
+    color:black;
+
+}
+#ocp{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 100px;
+    text-shadow: 1px 1px 2px black;
+}
+#hire{
+    padding: 10px 55px;
+    border-radius: 10px;
+    margin-top: 5vh;
+    font-size: 1.5rem;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px black;
+
+}
+#hire:hover{
+    background-color:rgba(255,255,255,.75);
+    color:black;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    margin: 10vh 0;
+    flex-direction: row;
+    padding: 2vh 5vw;
+}
+.main img{
+    color:black;
+    height: 55vh;
+    
+}
+.main h3{
+    color:grey;
+}
+.main, .main h1,.main p{
+    color: black;
+}
+.main ul{
+    border: .5px solid grey;
+    padding: 20px;
+    margin-top: 2vh;
+}
+.main ul li{
+    color: rgba(50,50,50,1);
+}
+#resume{
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    background-color: green;
+  
+    text-decoration: none;
+
+}   
+#resume:hover{
+    background-color: skyblue;
+    color: black;
+}
+.footer{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
