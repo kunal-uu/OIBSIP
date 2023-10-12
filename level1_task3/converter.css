@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    font-size: 17px;
+    outline: none;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .2s all;
+    font-family: 'Fira Sans', sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .display{
+    width: 50vw;
+    border-radius: 10px;
+    box-shadow: 1px 0px 5px black;
+    height: 50vh;
+    background-color:#2D68C4;
+    display: flex;
+}
+.container .display .inputState{
+    
+    width: 50%;
+    height: 50vh;
+    border-radius: 10px 0px 0px 10px;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+.container .display .inputState .inputField{
+    /* margin-bottom:5vh ;   */
+    border: 1px solid grey;
+    padding: 5px 15px;
+}
+input{
+    width: 11vw;
+    border: none;
+}
+select{
+    border: none;
+    border-left: 1px solid grey;
+}
+.selectOutputState select{
+    border: 1px solid grey;
+    width: 100%;
+    padding: 5px 15px;
+}
+h2{
+    margin: 20px 0;
+
+}
+#convert{
+    padding: 10px 0px;
+    margin: 5vh 0;
+    border-radius: 10px;
+    border: none;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+}
+#convert:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color:#2D68C4;
+}
+#outputField p{
+    font-size: 55px;
+    color: white;
+}
