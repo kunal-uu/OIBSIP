@@ -34,7 +34,7 @@ const convertDegCeltoFer= (temp)=>{
 }
 const convertDegCeltoKel= (tempKel)=>{
     const kel=273.15;
-    return (kel+tempKel);
+    return (kel+Number(tempKel));
     
 }
 const convertDegFertoCel= (tempCel)=>{
